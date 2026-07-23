@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- STYLES -->
+        <link href="styles/style.css" rel="stylesheet">
+        
+        <!-- FONTS -->
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+        <!-- ICONS -->
+        <script src="https://kit.fontawesome.com/ed8dcbcd8d.js" crossorigin="anonymous"></script>
+
+        <title>Portfolio</title>
+    </head>
+    <body>
+        <header>
+            <div class="header-container">
+                <div>
+                    <i class="fas fa-user"></i>
+                    <a href="#"><span>Portfolio</span></a>
+                </div>
+
+                <!-- MENU BUTTON -->
+                <button class="menu-toggle" id="menuToggle">
+                    <i class="fas fa-bars"></i>
+                </button>
+
+                <nav class="nav">
+                    <ul class="nav-item">
+                        <li><a class="nav-link" href="">Home</a></li>
+                        <li><a class="nav-link" href="">About</a></li>
+                        <li><a class="nav-link" href="">Project</a></li>
+                        <li><a class="nav-link" href="">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <main>
+            <div class="hero-container">
+
+            </div>
+        </main>
+
+        <script>
+            const toggle = document.getElementById('menuToggle');
+            const nav = document.querySelector('nav');
+
+            toggle.onclick = () => {
+                nav.classList.toggle('active');
+                // document.body.classList.toggle('blur');
+            };
+        </script>
+    </body>
+</html>
