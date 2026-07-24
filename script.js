@@ -10,5 +10,4 @@ toggle.onclick = () => {
     } else {
         icon.textContent = '☰';
     }
-    // document.body.classList.toggle('blur');
 };
