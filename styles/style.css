@@ -101,6 +101,7 @@ header {
 
     .menu-toggle {
         display: block;
+        border: 1px solid black;
     }
     
     .menu-toggle svg {
