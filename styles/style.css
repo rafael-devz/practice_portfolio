@@ -97,6 +97,10 @@ header {
         background-color: rgba(0, 0, 0, 0.3);
         z-index: 5;
     } */
+
+    .menu-toggle {
+        display: block;
+    }
     
     .menu-toggle svg {
         display: block;
