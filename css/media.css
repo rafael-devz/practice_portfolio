@@ -47,22 +47,4 @@
     }
 
     /* HERO SECTION */
-    .hero-content {
-        flex-direction: column-reverse;
-        text-align: center;
-    }
-
-    .hero-text {
-        width: 100%;
-        align-items: center;
-    }
-
-    .hero-text p {
-        max-width: 100%;
-    }
-
-    .hero-btns {
-        justify-content: center;
-        flex-wrap: wrap;
-    }
 }
