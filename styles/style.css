@@ -50,6 +50,7 @@ header {
 /* MENU BUTTON SECTION */
 .menu-toggle {
     background-color: white;
+    display: none;
 }
 
 .menu-toggle svg {
