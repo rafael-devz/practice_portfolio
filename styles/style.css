@@ -49,7 +49,7 @@ header {
 
 /* MENU BUTTON SECTION */
 
-.menu-toggle svg {
+#menuIcon {
     display: none;
 }
 
