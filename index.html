@@ -12,6 +12,7 @@
 
         <!-- ICONS -->
         <script src="https://kit.fontawesome.com/ed8dcbcd8d.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
         <title>Portfolio</title>
     </head>
@@ -24,9 +25,9 @@
                 </div>
 
                 <!-- MENU BUTTON -->
-                <button class="menu-toggle" id="menuToggle">
-                    <i class="fas fa-bars"></i>
-                </button>
+                <div class="menu-toggle" id="menuToggle">
+                    <span id="menuIcon">☰</span>
+                </div>
 
                 <nav class="nav">
                     <ul class="nav-item">
@@ -45,14 +46,6 @@
             </div>
         </main>
 
-        <script>
-            const toggle = document.getElementById('menuToggle');
-            const nav = document.querySelector('nav');
-
-            toggle.onclick = () => {
-                nav.classList.toggle('active');
-                // document.body.classList.toggle('blur');
-            };
-        </script>
+        <script src="script.js"></script>
     </body>
 </html>

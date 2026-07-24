@@ -48,11 +48,6 @@ header {
 }
 
 /* MENU BUTTON SECTION */
-.menu-toggle {
-    background-color: none;
-    border: none;
-    display: none;
-}
 
 .menu-toggle svg {
     display: none;
@@ -101,10 +96,9 @@ header {
 
     .menu-toggle {
         display: block;
-        border: 1px solid black;
     }
     
-    .menu-toggle svg {
+    #menuIcon {
         display: block;
         padding: 2px;
         font-size: 1rem;
