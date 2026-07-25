@@ -113,12 +113,12 @@ header {
 }
 
 .hero-text .h1-greet {
-    font-size: 20px;
+    font-size: 18px;
     color: #4f46e5;
 }
 
 .hero-text .h1-name {
-    font-size: clamp(25px, 5vw, 40px);
+    font-size: clamp(25px, 4vw, 40px);
     margin: 5px 0;
 }
 
@@ -126,14 +126,15 @@ header {
     color: #4f46e5;
 }
 
-hgroup p {
+hgroup .h1-p {
     max-width: 100%;
-    font-size: 1rem;
+    line-height: 1.5;
+    font-size: 0.8rem;
     font-weight: bold;
     color: #4f46e5;
 }
 
-.hero-text p {
+.hero-text .hero-detail {
     width: 90%;
     font-size: 0.7rem;
 }
