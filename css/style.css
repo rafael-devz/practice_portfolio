@@ -113,12 +113,12 @@ header {
 }
 
 .hero-text .h1-greet {
-    font-size: clamp(18px, 3vw, 22px);
+    font-size: clamp(16px, 2vw, 22px);
     color: #4f46e5;
 }
 
 .hero-text .h1-name {
-    font-size: clamp(25px, 3vw, 45px);
+    font-size: clamp(28px, 3vw, 45px);
     margin: 5px 0;
 }
 
