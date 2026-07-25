@@ -207,4 +207,10 @@ hgroup .h1-p {
     display: flex;
     gap: 10px;
     color: #323232;
+    transition: transform 0.3s, color 0.3s;
+}
+
+.socmed-link:hover {
+    transform: scale(1.2);
+    color: #5d5d5d;
 }
