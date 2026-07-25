@@ -1,3 +1,18 @@
+@media (min-width: 769px) {
+    .hero-container {
+        padding: 60px 0;
+    }
+
+    .hero-content {
+        flex-direction: row;
+    }
+
+    .hero-text,
+    .hero-img {
+        flex-grow: 1;
+    }
+}
+
 @media (max-width: 768px) {
 
     .menu-toggle {
