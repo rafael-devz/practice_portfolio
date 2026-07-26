@@ -10,7 +10,7 @@ html {
 
 body {
     font-family: 'Montserrat', sans-serif;
-    height: 100vh;
+    min-height: 100vh;
     padding-top: 80px;
 }
 
@@ -89,7 +89,7 @@ header {
 /* HERO SECTION */
 .hero-container {
     width: 100%;
-    padding: 20px 0;
+    padding: 60px 0;
 }
 
 .hero-content {
@@ -143,6 +143,7 @@ hgroup .h1-p {
 .hero-text .hero-detail {
     width: 90%;
     font-size: 0.7rem;
+    text-align: justify;
 }
 
 .hero-img {
@@ -222,3 +223,96 @@ hgroup .h1-p {
 }
 
 /* ABOUT SECTION */
+.about-section {
+    width: 100%;
+    padding: 60px 0;
+}
+
+.about-container {
+    width: min(90%, 1200px);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.about-img img {
+    display: none;
+    width: clamp(250px, 30vw, 300px);
+}
+
+.about-content {
+    padding: 10px;
+}
+
+.about-me {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding: 5px;
+}
+
+.about-me h2{
+    position: relative;
+    font-size: clamp(18px, 2vw, 25px);
+    margin-bottom: 10px;
+}
+
+.about-me h2::before {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    width: 30px;
+    height: 2px;
+    background-color: #4f46e5;
+}
+
+.about-me span{
+    color: #4f46e5;
+}
+
+.about-me p {
+    line-height: 1.2;
+    font-size: 0.7rem;
+    text-align: justify;
+}
+
+.about-info {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    padding: 10px;
+}
+
+.info-card {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    padding: 10px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.info-card svg {
+    font-size: 1.2rem;
+    color: #4f46e5;
+}
+
+.info-card p {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.info-card span {
+    font-size: 0.8rem;
+}
+
+.info-card .info-head {
+    font-weight: bold;
+}
+
+.info-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.15);
+}
