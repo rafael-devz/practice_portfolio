@@ -45,7 +45,7 @@ header {
     padding: 20px 2%;
 }
 
-.header-container div {
+.header-container .logo {
     display: flex;
     align-items: center;
     gap: 0.6rem;
@@ -53,8 +53,16 @@ header {
     font-weight: bold;
 }
 
-.header-container div a {
-    color: black;
+.header-container .logo a {
+    background: linear-gradient(135deg, #26314d, #1253e0, #671aed);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.logo span {
+    font-size: 14px;
+    color: rgb(91, 85, 85);
 }
 
 /* MENU BUTTON SECTION */
