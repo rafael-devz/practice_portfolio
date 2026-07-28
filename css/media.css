@@ -85,5 +85,15 @@
         white-space: normal;
         border-right: none;
         animation: none;
+    }
+
+    .about-info {
+        grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    }
 }
-}
+
+@media (max-width: 644px) {
+    .about-info {
+        grid-template-columns: 1fr;
+    }
+} 
