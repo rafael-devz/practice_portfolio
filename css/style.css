@@ -113,7 +113,7 @@ header {
 }
 
 .hero-text {
-    flex: 1;
+    width: 100%;
     display: flex;
     align-items: flex-start;
     justify-content: flex-start;
@@ -134,23 +134,14 @@ header {
 
 .hero-text .h1-name {
     display: inline-block;
-    font-size: clamp(28px, 3vw, 40px);
+    font-size: clamp(25px, 3vw, 40px);
     margin: 5px 0;
     text-wrap: nowrap;
     overflow: hidden;
     font-family: monospace;
     border-right: 1px solid #5c5c5c;
-    animation: typing 4s steps(19) infinite alternate-reverse,
+    animation: typing 3s steps(20) infinite alternate-reverse,
     blink 0.8s step-end infinite;
-}
-
-@keyframes typing {
-    from { width: 0 }
-    to { width: 19ch }
-}
-
-@keyframes blink {
-    50% {border-color: transparent;}
 }
 
 .h1-name span {
@@ -160,7 +151,7 @@ header {
 hgroup .h1-p {
     max-width: 100%;
     line-height: 1.5;
-    font-size: clamp(0.8rem, 3vw, 1rem);
+    font-size: clamp(0.7rem, 3vw, 1rem);
     font-weight: bold;
     color: #4f46e5;
 }
@@ -172,7 +163,6 @@ hgroup .h1-p {
 }
 
 .hero-img {
-    flex: 1;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -180,7 +170,7 @@ hgroup .h1-p {
 
 .hero-img img{
     width: 100%;
-    max-width: clamp(350px, 40vw, 600px);
+    max-width: clamp(330px, 40vw, 550px);
     height: auto;
 }
 
@@ -198,7 +188,7 @@ hgroup .h1-p {
     padding: 10px 15px;
     border: none;
     border-radius: 5px;
-    font-size: clamp(0.6rem, 3vw, 0.8rem);
+    font-size: clamp(0.4rem, 2vw, 0.8rem);
     font-weight: 600;
     transition: transform 0.3s;
 }

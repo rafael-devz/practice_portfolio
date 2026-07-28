@@ -82,7 +82,7 @@
     }
 
     .hero-text .h1-name {
-        text-wrap: normal;
+        white-space: normal;
         border-right: none;
         animation: none;
 }
