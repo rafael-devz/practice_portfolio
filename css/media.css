@@ -80,4 +80,10 @@
         color: rgb(255, 245, 245);
         background-color: #a5a5a5;
     }
+
+    .hero-text .h1-name {
+        text-wrap: normal;
+        border-right: none;
+        animation: none;
+}
 }
