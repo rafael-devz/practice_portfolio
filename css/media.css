@@ -90,10 +90,18 @@
     .about-info {
         grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
     }
+
+    .project-container {
+        grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    }
 }
 
 @media (max-width: 644px) {
     .about-info {
+        grid-template-columns: 1fr;
+    }
+
+    .project-container {
         grid-template-columns: 1fr;
     }
 } 
