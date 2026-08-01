@@ -94,6 +94,19 @@
     .project-container {
         grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
     }
+
+    .contact-container {
+        flex-direction: column;
+    }
+
+    .contact-container::before {
+        display: none;
+    }
+
+    .contact-content-box {
+        align-items: center;
+        width: min(100%, 500px);
+    }
 }
 
 @media (max-width: 644px) {
