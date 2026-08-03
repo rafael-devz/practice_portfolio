@@ -58,7 +58,7 @@ header {
     font-weight: bold;
 }
 
-.header-container .logo a {
+.logo a {
     background: linear-gradient(135deg, #9bb4e8, #34a3cf, #14b5f5);
     background-clip: text;
     -webkit-background-clip: text;
@@ -663,4 +663,74 @@ header {
 .contact-socmed-link:hover {
     transform: scale(1.2);
     box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+/* FOOTER SECTION */
+
+footer {
+    width: 100%;
+    height: auto;
+    background: rgba(255,255,255,0.9);
+    border-top: 1px solid rgba(0, 0, 0, 0.3);
+    margin-top: 50px;
+}
+
+.footer-container {
+    width: min(90%, 1400px);
+    display: flex;
+    align-items: center;
+    margin: auto;
+    padding: 20px 2%;
+}
+.footer-logo {
+    font-weight: bold;
+}
+
+.footer-info {
+    border-left: 1px solid rgba(0, 0, 0, 0.3);
+    padding: 10px 0;
+    margin-left: 10px;
+}
+
+.footer-info p {
+    margin-left: 10px;
+    font-size: 0.8rem;
+}
+
+.footer-info a {
+    color: #a0a0a0;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.footer-info a:hover {
+    color: #5d5d5d;
+}
+
+.up-btn {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-left: auto;
+}
+
+.up-btn span {
+    font-size: 0.8rem;
+    text-align: center;
+}
+
+.up-btn a {
+    background-color: #5c5c5c;
+    border-radius: 50%;
+    color: white;
+}
+
+.up-btn svg {
+    font-size: 0.8rem;
+    padding: 10px;
+    transition: transform 0.3s;
+}
+
+.up-btn a:hover svg {
+    transform: translateY(-2px);
 }
